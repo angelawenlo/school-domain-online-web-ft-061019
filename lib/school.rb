@@ -20,7 +20,8 @@ class School
   end
 
   def sort
-      @roster.sort_by {|v|}
+      @roster.map do |grade, name|
+        name.sort
       binding.pry
   end
 end
