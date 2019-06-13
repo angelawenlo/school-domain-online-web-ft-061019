@@ -20,8 +20,8 @@ class School
   end
 
   def sort
-    sorted_array = @roster.map do |grade, names|
-      names.sort
+    @roster.map do |grade, names|
+      sorted_array = @roster[grade] << names.sort
     end
   end
 end
