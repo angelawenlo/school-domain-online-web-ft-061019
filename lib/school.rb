@@ -12,7 +12,6 @@ class School
     else
       @roster[grade] = []
     end
-      binding.pry
   end
 
   def grade(grade)
