@@ -23,6 +23,6 @@ class School
 
         @roster.values.sort
 
-      end
+  
   end
 end
