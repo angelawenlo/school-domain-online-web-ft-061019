@@ -10,6 +10,7 @@ class School
     @roster[grade] = []
     if @roster.include?(grade)
       @roster
+      binding.pry
     else
       @roster[grade] << name
     end
