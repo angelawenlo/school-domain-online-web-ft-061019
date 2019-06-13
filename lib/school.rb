@@ -22,7 +22,7 @@ class School
   def sort
     sorted_hash = {}
       @roster.map do |grade, name|
-        name.sort
+        sorted_hash[grade] << name.sort
       end
   end
 end
