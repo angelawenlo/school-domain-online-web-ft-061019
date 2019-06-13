@@ -21,5 +21,6 @@ class School
 
   def sort
     @roster.sort_by {|k, v| v}.to_h
+    binding.pry
   end
 end
