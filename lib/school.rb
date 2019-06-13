@@ -23,6 +23,5 @@ class School
 
       @roster
 
-      end
   end
 end
