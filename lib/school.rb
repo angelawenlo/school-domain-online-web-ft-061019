@@ -20,8 +20,7 @@ class School
   end
 
   def sort
-      @roster.map do |grade, name|
-          binding.pry
+  
         @roster.values = name.sort
 
       end
