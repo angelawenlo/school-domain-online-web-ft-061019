@@ -21,6 +21,5 @@ class School
 
   def sort
       grade(grade).sort
-      binding.pry
   end
 end
