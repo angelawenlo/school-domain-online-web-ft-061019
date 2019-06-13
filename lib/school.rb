@@ -10,6 +10,7 @@ class School
     @roster[grade] = []
     if @roster.include?(grade)
       @roster[grade] << name
+    end
   end
   def grade(grade)
     @roster[grade]
