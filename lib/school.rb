@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    sorted_names = @roster.values.sort
+    @roster.sort_by {|k, v| v}
   end
 end
