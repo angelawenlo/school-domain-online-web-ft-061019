@@ -24,5 +24,6 @@ class School
       roster.sort_by do |k, v|
       v.sort
     end
+    end
   end
 end
