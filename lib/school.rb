@@ -20,8 +20,7 @@ class School
   end
 
   def sort
-    @roster.sort.map do |grade, name|
-      sorted = {grade => name.sort}.to_h
+    @roster.sort!
     end
   end
 end
