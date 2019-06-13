@@ -20,8 +20,6 @@ class School
   end
 
   def sort
-
-    @roster.map do |grade, names|
       @roster
     end
   end
