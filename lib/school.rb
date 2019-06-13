@@ -21,8 +21,8 @@ class School
 
   def sort
 
-        @roster.values.sort
+    sorted_names = @roster.values.sort
 
-  
+
   end
 end
