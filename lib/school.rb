@@ -22,6 +22,5 @@ class School
   def sort
     self.roster
 
-    end
   end
 end
