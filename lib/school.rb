@@ -21,7 +21,7 @@ class School
 
   def sort
     @roster.sort.map do |grade, name|
-      sorted = []
+      sorted = [grade => name]
       sorted << grade
       binding.pry
     end
