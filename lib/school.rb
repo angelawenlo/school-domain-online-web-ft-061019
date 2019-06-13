@@ -24,6 +24,7 @@ class School
     sorted_names = {}
     sorted_names[grade] = []
     sorted_names[grade] << names.sort
+    sorted_names
     end
   end
 end
