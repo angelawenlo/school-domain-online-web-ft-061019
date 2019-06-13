@@ -22,5 +22,6 @@ class School
   def sort
     @roster.sort.map do |grade, name|
       binding.pry
+    end
   end
 end
