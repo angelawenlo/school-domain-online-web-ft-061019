@@ -22,6 +22,7 @@ class School
   def sort
     @roster.map do |grade, names|
     sorted_names = {}
+    sorted_names[grade] = []
       binding.pry
     end
   end
