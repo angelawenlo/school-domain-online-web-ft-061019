@@ -22,6 +22,7 @@ class School
   def sort
     @roster.map do |grade, names|
       sorted_array =  grade << names.sort
+      binding.pry
     end
   end
 end
