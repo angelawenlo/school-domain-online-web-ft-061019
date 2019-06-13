@@ -20,8 +20,9 @@ class School
   end
 
   def sort
-
-      @roster.sort.to_h
+      @roster.map do |grade, name|
+        sorted_array ]{}
+      sorted_array[grade] << name.sort
 
   end
 end
