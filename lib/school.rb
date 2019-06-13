@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-      @roster map dograde(grade).sort
+      @roster.map do grade(grade).sort
   end
 end
