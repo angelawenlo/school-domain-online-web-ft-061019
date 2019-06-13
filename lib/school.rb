@@ -21,6 +21,5 @@ class School
 
   def sort
     self
-    end
   end
 end
