@@ -21,7 +21,7 @@ class School
 
   def sort
     self.roster.map do |grade, name|
-    sorted = [grade => name.sort]
+  
     end
   end
 end
