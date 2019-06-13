@@ -21,6 +21,6 @@ class School
 
   def sort
       @roster.sort_by |v|
-
+    end
   end
 end
