@@ -23,5 +23,4 @@ class School
     @roster.map do |grade, names|
       binding.pry
     end
-  end
 end
