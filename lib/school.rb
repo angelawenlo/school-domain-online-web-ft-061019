@@ -21,7 +21,6 @@ class School
 
   def sort
     @roster.sort_all do |k, v|
-
     end
   end
 end
