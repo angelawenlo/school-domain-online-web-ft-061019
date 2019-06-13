@@ -16,10 +16,10 @@ class School
   end
 
   def grade(grade)
-    @roster[grade].sort
+    @roster[grade]
   end
 
   def sort
-      grade(grade).sort
+      @roster map dograde(grade).sort
   end
 end
