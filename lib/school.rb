@@ -22,7 +22,7 @@ class School
   def sort
       @roster.map do |grade, name|
       name.sort
-      @roster
+      @roster.uniq
     end
   end
 end
