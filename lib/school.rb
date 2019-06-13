@@ -21,7 +21,7 @@ class School
 
   def sort
     self.roster.each do |grade, name|
-      roster.keys == grade.sort
+      roster.keys = grade.sort
     end
   end
 end
