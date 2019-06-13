@@ -21,6 +21,6 @@ class School
 
   def sort
       @roster
-
+      binding.pry
   end
 end
