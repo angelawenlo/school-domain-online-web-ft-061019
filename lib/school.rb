@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-      @roster.sort_by |v|
-    end
+      @roster.sort_by {|K|}
+
   end
 end
