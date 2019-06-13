@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    self.roster
+    self.grade
 
   end
 end
