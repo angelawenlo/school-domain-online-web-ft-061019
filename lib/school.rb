@@ -20,7 +20,6 @@ class School
   end
 
   def sort
-
     sorted_names = @roster.values.sort
 
 
