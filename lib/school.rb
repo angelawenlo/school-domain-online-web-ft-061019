@@ -21,7 +21,7 @@ class School
 
   def sort
 
-      @roster.values.sort
+      @roster.values.sort.to_h
 
   end
 end
