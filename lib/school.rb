@@ -22,7 +22,6 @@ class School
   def sort
     @roster.sort.map do |grade, name|
       sorted = [grade => name]
-      binding.pry
     end
   end
 end
