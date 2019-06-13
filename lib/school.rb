@@ -20,8 +20,9 @@ class School
   end
 
   def sort
-    @roster.map do |grade, names|
     sort = {}
+    @roster.map do |grade, names|
+    
     end
   end
 end
